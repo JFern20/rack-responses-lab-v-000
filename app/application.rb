@@ -6,7 +6,8 @@ class Application
     
     
     if Time.now.hour.between?(0, 11)
-      resp.write 
+      resp.write "Good Morning"
+    else 
   
   
   
