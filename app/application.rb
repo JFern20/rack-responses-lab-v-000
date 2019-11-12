@@ -2,7 +2,7 @@ class Application
   
   
   def call(env)
-   resp = Rack
+   resp = Rack::Res
   
   
   
