@@ -15,7 +15,7 @@ class Application
     end 
   
   
-  
+  resp.finish 
    
   
   
