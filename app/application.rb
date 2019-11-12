@@ -8,7 +8,7 @@ class Application
     if Time.now.hour.between?(0, 11)
       resp.write "Good Morning"
     elsif 
-     Time.now
+     Time.now.hour.between?(12,)
   
   
   
