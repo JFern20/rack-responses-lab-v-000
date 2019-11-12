@@ -5,7 +5,7 @@ class Application
    resp = Rack::Response.new 
     
     
-    if Time.now.hour.between?(0..11)
+    if Time.now.hour.between?(0, 11)
   
   
   
